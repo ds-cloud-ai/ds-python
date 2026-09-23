@@ -1,2 +1,2 @@
 # ds-python
-Portfolio as a Python developer
+Portfolio for a Python developer
