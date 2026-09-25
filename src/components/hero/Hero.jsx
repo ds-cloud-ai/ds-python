@@ -5,12 +5,15 @@ import Index from "../../components/about/index";
 const heroContent = {
   heroImage: "img/hero/dark.jpg",
   heroMobileImage: "img-mobile",
-  heroTitleName: "steve milner",
-  heroDesignation: "web designer",
-  heroDescriptions: `I'm a Tunisian based web designer & front‑end developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
+  heroTitleName: "dolynster",
+  heroDesignation: "python + AI expert",
+  heroDescriptions: `Business-oriented and Results-driven technology professional 
+    in software engineering, cloud application development, data engineering, and AI solutions.
+    Experienced in designing and delivering scalable, secure, and cost-efficient solutions 
+    using Python and related technologies.`,
+  heroDescriptions1: `My focus: agentic workflows, LLM integrations (Claude, GPT, open-source models), 
+    RAG pipelines, automation at scale, and the production backend engineering that makes AI reliable in 
+    regulated and high-stakes environments.`,
   heroBtn: "more about me",
 };
 
@@ -43,6 +46,7 @@ const Hero = () => {
               <span>{heroContent.heroDesignation}</span>
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
+            <p className="open-sans-font">{heroContent.heroDescriptions1}</p>
             <button className="button" onClick={toggleModalOne}>
               <span className="button-text">{heroContent.heroBtn}</span>
               <span className="button-icon fa fa-arrow-right"></span>

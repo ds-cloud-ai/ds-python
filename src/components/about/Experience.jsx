@@ -2,25 +2,29 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "   2018 - Present",
-    position: " Web Developer",
-    compnayName: "Envato",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
+    year: "2018 - Present",
+    position: "Python AI Engineer",
+    compnayName: "SoftwareQ",
+    details: `Delivered AI-powered data extraction, classification, and enrichment pipelines at scale and 
+      automation engines connecting CRMs, APIs, and business tools`,
   },
   {
-    year: "2013 - 2018",
-    position: " UI/UX Designer",
-    compnayName: "Themeforest",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
+    year: "2021 - 2023",
+    position: "Senior Back-end Engineer",
+    compnayName: "Kinaxis",
+    details: `Built internal tools, admin systems, and APIs for performance and reliability and delivered full-stack web applications end-to-end`,
   },
   {
-    year: "2005 - 2013",
-    position: "Consultant",
-    compnayName: "Videohive",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    year: "2018 - 2021",
+    position: "Lead Back-end Developer",
+    compnayName: "Nintex Software Malaysia Sdn Bhd",
+    details: `Shipped production systems across healthcare, real estate, music, cybersecurity, and more.`,
+  },
+  {
+    year: "2017 - 2018",
+    position: "Junior Python Developer",
+    compnayName: "RootQuotient",
+    details: `Built various SaaS platforms with Python and Django.`,
   },
 ];
 

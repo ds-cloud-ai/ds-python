@@ -4,16 +4,16 @@ import Hero from "../../components/hero/Hero";
 import Index from "../../components/about/index";
 import Address from "../../components/Address";
 import Portfolio from "../../components/portfolio/Portfolio";
-import Blog from "../../components/blog/Blog";
-import Contact from "../../components/Contact";
-import Social from "../../components/Social";
+// import Blog from "../../components/blog/Blog";
+// import Contact from "../../components/Contact";
+// import Social from "../../components/Social";
 
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
   { icon: "fa-user", menuName: "About" },
   { icon: "fa-briefcase", menuName: "Portfolio" },
   { icon: "fa-envelope-open", menuName: "Contact" },
-  { icon: "fa-comments", menuName: "Blog" },
+  // { icon: "fa-comments", menuName: "Blog" },
 ];
 
 const HomeDark = () => {
@@ -108,25 +108,43 @@ const HomeDark = () => {
               <div className="row">
                 {/*  Left Side Starts */}
                 <div className="col-12 col-lg-4">
-                  <h3 className="text-uppercase custom-title mb-0 ft-wt-600 pb-3">
-                    Don't be shy !
-                  </h3>
-                  <p className="open-sans-font mb-4">
-                    Feel free to get in touch with me. I am always open to
-                    discussing new projects, creative ideas or opportunities to
-                    be part of your visions.
-                  </p>
                   <Address />
                   {/* End Address */}
 
-                  <Social />
+                  {/* <Social /> */}
                   {/* End Social */}
                 </div>
                 {/* Left Side Ends */}
 
                 {/*  Contact Form Starts  */}
                 <div className="col-12 col-lg-8">
-                  <Contact />
+                  {/* <Contact /> */}
+                  <h3 className="text-uppercase custom-title mb-0 ft-wt-600 pb-3">
+                    Always Available !
+                  </h3>
+                  <p className="open-sans-font mb-4">
+                    Sound like a fit for what you're working on?
+                  </p>
+                  <p className="open-sans-font mb-4">
+                    Feel free to get in touch with me. I'd love to hear what you're building.
+                  </p>
+                  <p className="open-sans-font mb-4">
+                    I am always open to discussing new projects, creative ideas or opportunities to
+                    be part of your visions.
+                  </p>
+                  <p className="open-sans-font mb-4">
+                    Let’s build something powerful.
+                  </p>
+                  <h3 className="text-uppercase custom-title mb-0 ft-wt-600 pb-3">
+                    What Sets Me Apart:
+                  </h3>
+                  <p className="open-sans-font mb-4">
+                    I am senior, and I still write the code. On every engagement you get one engineer doing 
+                    the actual work: architecting, coding, testing, deploying, documenting. Because I have built 
+                    AI in regulated healthcare and fintech environments, compliance, evals, and monitoring are 
+                    baked in from day one rather than bolted on. My neuroscience background shapes how I build 
+                    AI systems that genuinely understand human behavior and needs.
+                  </p>
                 </div>
                 {/*  Contact Form Ends */}
               </div>
@@ -136,7 +154,7 @@ const HomeDark = () => {
           {/* Contact Content Ends */}
 
           {/* Blog Content Starts */}
-          <TabPanel className="blog">
+          {/* <TabPanel className="blog">
             <div
               className="title-section text-left text-sm-center "
               data-aos="fade-up"
@@ -152,13 +170,13 @@ const HomeDark = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              {/*  Articles Starts  */}
+              
               <div className="row pb-50">
                 <Blog />
               </div>
-              {/* Articles Ends */}
+              
             </div>
-          </TabPanel>
+          </TabPanel> */}
           {/* Blog Content Ends */}
         </div>
       </Tabs>
